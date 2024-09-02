@@ -8,3 +8,5 @@ Movement: WASD + QE or Arrows + PageUp/PageDown or Drag and Drop mouse
 Change view: V
 
 Reset location: C
+
+[Video](https://www.youtube.com/watch?v=NPlIVm7E-7w)
