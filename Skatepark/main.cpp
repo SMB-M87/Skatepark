@@ -1,8 +1,8 @@
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 
-#include "skybox.h"
 #include "skatepark.h"
+#include "skybox.h"
 #include "skateboard.h"
 
 using namespace std;

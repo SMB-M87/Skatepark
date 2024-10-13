@@ -26,6 +26,45 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bowl.cpp" />
+    <ClCompile Include="cuboid.cpp" />
+    <ClCompile Include="cylinder.cpp" />
+    <ClCompile Include="glsl.cpp" />
+    <ClCompile Include="loader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="polygon.cpp" />
+    <ClCompile Include="prism.cpp" />
+    <ClCompile Include="shape.cpp" />
+    <ClCompile Include="skateboard.cpp" />
+    <ClCompile Include="skatepark.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="speed_bump.cpp" />
+    <ClCompile Include="sphere.cpp" />
+    <ClCompile Include="torus.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bowl.h" />
+    <ClInclude Include="cuboid.h" />
+    <ClInclude Include="cylinder.h" />
+    <ClInclude Include="glsl.h" />
+    <ClInclude Include="loader.h" />
+    <ClInclude Include="polygon.h" />
+    <ClInclude Include="prism.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="skateboard.h" />
+    <ClInclude Include="skatepark.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="speed_bump.h" />
+    <ClInclude Include="sphere.h" />
+    <ClInclude Include="torus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader.frag" />
+    <None Include="shader.vert" />
+    <None Include="skybox.frag" />
+    <None Include="skybox.vert" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{C00D596E-8C1F-42BE-9951-BD197B8B5112}</ProjectGuid>
@@ -124,6 +163,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(ProjectDir)Headers;$(ProjectDir)Resources;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -210,45 +250,6 @@
       <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="bowl.cpp" />
-    <ClCompile Include="skatepark.cpp" />
-    <ClCompile Include="skybox.cpp" />
-    <ClCompile Include="speed_bump.cpp" />
-    <ClCompile Include="sphere.cpp" />
-    <ClCompile Include="cuboid.cpp" />
-    <ClCompile Include="cylinder.cpp" />
-    <ClCompile Include="glsl.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="prism.cpp" />
-    <ClCompile Include="shape.cpp" />
-    <ClCompile Include="skateboard.cpp" />
-    <ClCompile Include="loader.cpp" />
-    <ClCompile Include="polygon.cpp" />
-    <ClCompile Include="torus.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="bowl.h" />
-    <ClInclude Include="skatepark.h" />
-    <ClInclude Include="skybox.h" />
-    <ClInclude Include="speed_bump.h" />
-    <ClInclude Include="sphere.h" />
-    <ClInclude Include="cuboid.h" />
-    <ClInclude Include="cylinder.h" />
-    <ClInclude Include="glsl.h" />
-    <ClInclude Include="prism.h" />
-    <ClInclude Include="shape.h" />
-    <ClInclude Include="skateboard.h" />
-    <ClInclude Include="loader.h" />
-    <ClInclude Include="polygon.h" />
-    <ClInclude Include="torus.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="shader.frag" />
-    <None Include="shader.vert" />
-    <None Include="skybox.frag" />
-    <None Include="skybox.vert" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -1,5 +1,3 @@
-// Bowl is helaas niet 1 op 1 nagemaakt met realiteit :(
-
 #include "bowl.h"
 
 namespace OpenGL
