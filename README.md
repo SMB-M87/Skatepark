@@ -3,6 +3,8 @@ This project was build with OpenGL and C++ from scratch using the freeglut, glew
 
 ![Image of recreated skatepark](app/image.png)
 
+https://github.com/user-attachments/assets/0b8755d5-6c04-4f33-9d41-6487abf165eb
+
 # Controls
 *Movement:* {Up}, {Down}, {Left}, {Right}, {PageUp}, {PageDown} or {W}, {S}, {A}, {D}, {Q}, {E}
 
